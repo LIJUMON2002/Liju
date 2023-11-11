@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+}
+
+.nav-head {
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-icon {
+    background-image: url('nav_images/LIJUMON.jpg');
+    background-size: cover;
+    width: 30px;
+    height: 40px;
+}
+
+.nav-icon-name {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-para {
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 0.9rem;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.nav-para:hover {
+    color: rgb(66, 66, 66);
+    background-color: white;
+}
+
+.back-img {
+    background-image: url('nav_images/back-img.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: grid;
+    place-items: center left;
+}
+
+.head-box {
+    height: 30%;
+    width: 45%;
+    display: grid;
+    place-items: center;
+    padding-left: 40px;
+    font-family: georgia;
+}
+
+.art-head {
+    color: rgb(222, 222, 222);
+    font-size: 3.5rem;
+    font-family: Arial black;
+    animation-name: art1;
+    animation-duration: 4s;   
+}
+
+@keyframes art1 {
+    0% {
+        font-size: 1rem;
+        color: black;
+    }
+    100% {
+        font-size: 3.5rem;
+        color: rgb(222, 222, 222);
+    }
+}
+
+.art-subhead {
+    font-size: 2rem;
+    padding-right: 6px;
+}
+
+.art-para {
+    color: rgb(178, 178, 178);
+    font-size: 1.4rem;
+    animation-name: art2;
+    animation-duration: 6s;
+}
+
+@keyframes art2 {
+    0% {
+        color: black;
+    }
+    100% {
+        color: rgb(178, 178, 178);
+    }
+}
+
+
+/*     Eduaction    */
+
+.education {
+    background-image: url('nav_images/education.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 570px;
+    display: grid;
+    place-items: center left;
+}
+
+.edubox {
+    padding-top: 3rem;
+    width: 65%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-head-box {
+    width: 70%;
+    height: 11%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.edu-head {
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+    display: grid;
+    place-content: center;
+}
+
+.edubox1 {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.edu-sbox {
+    background-color: rgb(114, 114, 114);
+    width: 40%;
+    height: 85%;
+    border-radius: 10px;
+}
+
+.edu-bhead {
+    border-radius: 10px;
+    width: 100%;
+    height: 24%;
+    background-color: rgb(54, 54, 54);
+    font-size: 0.56rem;
+    display: grid;
+    place-items: center;
+    color: rgb(192, 192, 192);
+}
+
+.edu-bpara {
+    padding-left: 15px;
+    width: 92%;
+    height: 76%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(230, 230, 230);
+}
+
+ .edu-bpara p {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/*     Internships    */
+
+.internships {
+    background-image: url('nav_images/project.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.intern-box {
+    width: 55%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.intern-head-box {
+    width: 80%;
+    height: 20%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.intern-head {
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.intern-para-box {
+    width: 80%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.projects {
+    background-image: url('nav_images/project.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.proj-box {
+    width: 40%;
+    height: 40%;
+    padding: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.proj-head-box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 13px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.proj-head {
+    color: white;
+    font-weight: bold;
+}
+
+.proj-cont {
+    padding: 10px 0px;
+}
+
+.cont-p {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/*    Interest   */
+
+.interest {
+    background-image: url('nav_images/back-img.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 570px;
+    display: flex;
+    align-items: center;
+}
+
+.interest-box {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.interest-head-box {
+    width: 70%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+    font-size: 1.9rem;
+    color: black;
+}
+
+.interest-para-box {
+    width: 70%;
+    height: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.interest-pad {
+    padding: 5px;
+}
+
+/*    About Me   */
+
+.aboutme {
+    background-color: black;
+    width: 100%;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.myimage {
+    background-image: url('nav_images/myphoto.jpg');
+    background-size: cover;
+    width: 32%;
+    height: 80%;
+}
+
+.about-content {
+    width: 58%;
+    height: 98%;
+}
+
+.about-box {
+    width: 100%;
+    height: 20%;
+}
+
+.about-box1 {
+    width: 100%;
+    height: 20%;
+    font-size: 1.5rem;
+    font-family: Georgia;
+    display: grid;
+    place-items: center;
+    color: rgb(190, 190, 190);
+}
+
+.about-box2 {
+    font-family: Cambria;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(140, 140, 140);
+}
+
+.about-box2 h3 {
+    width: 92%;
+    display: flex;
+}
+
+.about-box3 {
+    width: 100%;
+    height: 12%;
+    display: grid;
+    place-items: center;
+    color: rgb(197, 197, 197);
+    font-family: arial;
+    background-color: black;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.about-box3 p {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-box4 {
+    width: 100%;
+    height: 23%;
+}
